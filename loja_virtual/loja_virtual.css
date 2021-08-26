@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -61,7 +62,6 @@ header{
     font-size: 19px;
 }
 .conteiner_slide .slide {
-    display: flex;
     display: none;
 }
 .slide img{
@@ -69,17 +69,13 @@ header{
     width: 800px;
 }
 .info {
-    font-family: arial;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
     margin: auto;
 }
 .info .preço{
     text-align: center;
     font-size: 40px;
-}
-
-.conteiner_slide {
-    border: solid black 3px;
-    
 }
 
 .btnanerior, .btnproximo{
